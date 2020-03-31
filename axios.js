@@ -11,7 +11,7 @@ const db = new Datastore({
   filename: './index.db',
   autoload: true
 });
-const port = 3000
+const port = process.env.PORT || 3000
 
 let id = 0
 let complete = {

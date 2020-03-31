@@ -1,5 +1,5 @@
-const API_url = 'http://192.168.99.207:3000/'
-const API_URL_v2 = 'http://192.168.99.207:3000/v2/api';
+const API_url = 'https://rumagniet.herokuapp.com/'
+const API_URL_v2 = 'https://rumagniet.herokuapp.com/v2/api';
 const randomRumagElement = document.querySelector('.random-rumag');
 const goButton = document.querySelector('.go-button');
 const loadMore = document.querySelector('#loadMoreButton');
